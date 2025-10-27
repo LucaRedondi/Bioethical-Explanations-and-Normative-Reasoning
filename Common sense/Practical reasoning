@@ -1,1 +1,59 @@
 Common sense - Practical reasoning
+Cases that involve the principle of non-malevolence
+[
+{
+    "id": 1,
+    "premise": "",
+    "hypothesis": "You shall not kill.",
+    "label": "Natural language complexity",
+    "explanation": "Killing is wrong."
+  },
+
+{
+    "id": 1,
+    "premise": "",
+    "hypothesis": "You shall not kill.",
+    "label": "Natural language complexity",
+    "explanation": "To kill is wrong."
+  },
+
+{
+    "id": 3,
+    "premise": "",
+    "hypothesis": "You shall not kill.",
+    "label": "Natural language complexity",
+    "explanation": "To take a person's life is morally forbidden."
+  },
+]
+
+[
+  {
+    "id": 4,
+    "premise": "",
+    "hypothesis": "You should help others.",
+    "label": "natural language complexity",
+    "explanation": "Helping others is good."
+  },
+  {
+    "id": 5,
+    "premise": "",
+    "hypothesis": "You should help others.",
+    "label": "natural language complexity",
+    "explanation": "To help others is good."
+  },
+
+{
+  "id": 6,
+  "premise": "",
+  "hypothesis": "You should help others.",
+  "label": "natural language complexity",
+  "explanation": "Helping others is morally appropriate."
+}
+]
+
+Cases that involve respect for others' autonomy.
+
+
+Cases that involve the principle of justice.
+
+
