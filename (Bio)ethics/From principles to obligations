@@ -1,0 +1,54 @@
+
+
+
+Cases that involve respect for others' autonomy.
+
+[
+ {
+  "id": 7,
+  "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
+  "hypothesis": "You should not offer Bob any meat.",
+  "label": "Default reasoning",
+  "explanation": "People who say they are vegetarians generally do not like being offered meat."
+},
+ {
+    "id": 8,
+    "premise": "People should decide how they spend their time. Dana keeps looking at their watch during the conversation.",
+    "hypothesis": "You should allow Dana to leave if they want to.",
+    "label": "Default reasoning",
+    "explanation": "Repeatedly checking a watch indicates wanting to do something else."
+  },
+{
+    "id": 9,
+    "premise": "You should respect others' autonomy. Bob shys away from your attention.",
+    "hypothesis": "You should leave Bob in peace.",
+    "label": "Default reasoning",
+    "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company."
+  },
+]
+
+Cases that involve the principle of justice.
+
+
+ {
+  "id": 7,
+  "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
+  "hypothesis": "You should not offer Bob any meat.",
+  "label": "Default reasoning",
+  "explanation": "People who say they are vegetarians generally do not like being offered meat."
+},
+ {
+    "id": 8,
+    "premise": "People should decide how they spend their time. Dana keeps looking at their watch during the conversation.",
+    "hypothesis": "You should allow Dana to leave if they want to.",
+    "label": "Default reasoning",
+    "explanation": "Repeatedly checking a watch indicates wanting to do something else."
+  },
+{
+    "id": 9,
+    "premise": "You should respect others' autonomy. Bob shys away from your attention.",
+    "hypothesis": "You should leave Bob in peace.",
+    "label": "Default reasoning",
+    "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company."
+  },
+]
