@@ -1,1 +1,42 @@
 Epistemic default reasoning
+
+In these cases, the validity of the explanation depends on some default assumption. For example, in case 1 it depends on the assumption that crying typically entails being unhappy. 
+
+[
+    {
+        "id": 1,
+        "premise": "An infant is in a crib and crying.",
+        "hypothesis": "A baby is unhappy.",
+        "label": "entailment",
+        "explanation": " If the infant is crying, it can be assumed that they are unhappy."
+    },
+    {
+        "id": 2,
+        "premise": "on a snowy day a man with a north face jacket walks through the crowded streets past a garbage truck",
+        "hypothesis": "A man walks down the street in winter.",
+        "label": "entailment",
+        "explanation": " Since the man is walking on a snowy day down a street, it is likely winter."
+    },
+    {
+        "id": 3,
+        "premise": "Two men in animal print pants sleep on a white bed.",
+        "hypothesis": "Two men are inside.",
+        "label": "entailment",
+        "explanation": " Two men sleeping on a white bed implies that they are inside."
+    },
+    {
+        "id": 4,
+        "premise": "A small ice cream stand with two people standing near it.",
+        "hypothesis": "Two people standing outside an ice cream stand.",
+        "label": "entailment",
+        "explanation": " If the people are near the stand they are outside it."
+    },
+
+    {
+        "id": 5,
+        "premise": "A old man sells hardware parts on a dirty sidewalk.",
+        "hypothesis": "The man is outside.",
+        "label": "entailment",
+        "explanation": " The man is on a dirty sidewalk. Sidewalks are found outdoors, therefore, the man is outside"
+    },
+]
