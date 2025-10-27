@@ -1,1 +1,33 @@
 Modalities - Practical reasoning
+
+These cases are
+[
+    {
+        "id": 1,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "You are permitted to submit the assignment.",
+        "label": "entailment (Obligation Entails Permission)",
+        "explanation": "If something is obligatory, then it is permitted."
+    },
+    {
+        "id": 2,
+        "premise": "You are not allowed to park here.",
+        "hypothesis": "You are obliged not to park here.",
+        "label": "entailment (Obligation and Forbiddenness)",
+        "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
+    },
+    {
+        "id": 3,
+        "premise": "It is forbidden to access the confidential files.",
+        "hypothesis": "You are not permitted to access the confidential files.",
+        "label": "entailment (Forbidden vs. Permitted)",
+        "explanation": "Something is forbidden if and only if it is not permitted."
+    },
+    {
+        "id": 4,
+        "premise": "Nurses are obliged to administer medication to patients during their shift. Only nurses are permitted to access the medication cabinet. Non-medical staff are forbidden from accessing the medication cabinet. ",
+        "hypothesis": " If you are not a nurse, you are not permitted to access the medication cabinet.",
+        "label": "entailment (Obligation, Permission, and Forbiddenness)",
+        "explanation": "Administering medication is an obligation for nurses. Access to the cabinet is permitted for those authorized (nurses). For everyone else (e.g., non-medical staff), access is forbidden."
+    },
+]
