@@ -17,10 +17,26 @@ Undercuts
 }
 
 {
-  "id": 24,
+  "id": 3,
   "premise": "Consent was given for organ donation. The patient is brain dead. Removing organs causes serious physical damage. You shall do no harm.",
   "hypothesis": "You are permitted to remove the organs.",
   "label": "Undercutting condition (Non-maleficence depends on the patient being alive)",
   "explanation": "Not causing harm gives a reason to avoid removing the organs. But the patient is already dead. So the usual reason not to harm does not apply here."
+}
+
+{
+  "id": 4,
+  "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. You should promote others’ wellbeing.",
+  "hypothesis": "You are permitted not to give the treatment.",
+  "label": "Undercutting condition (Beneficence requires real benefit)",
+  "explanation": "Helping others is good when it improves their wellbeing. But here the treatment would not help. So the usual reason to treat does not apply."
+}
+
+{
+  "id": 5,
+  "premise": "A competent person refuses vaccination. Refusing vaccination endangers others. You should respect others’ autonomy.",
+  "hypothesis": "You are permitted not to follow the refusal.",
+  "label": "Undercutting condition (Autonomy applies only to self-regarding choices)",
+  "explanation": "Respecting autonomy normally means accepting a person’s choice. But this choice creates serious risk for others. So the usual reason to respect autonomy does not fully apply here."
 }
 ]
