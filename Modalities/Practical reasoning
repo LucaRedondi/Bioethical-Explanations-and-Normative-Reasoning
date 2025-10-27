@@ -1,6 +1,9 @@
 Modalities - Practical reasoning
 
-These cases are
+In the following cases, the validity of the explanation is guaranteed as far as the correct relations between the deontic operators are established. 
+
+
+Group A - On obligation, permission and prohibition
 [
     {
         "id": 1,
@@ -30,4 +33,123 @@ These cases are
         "label": "entailment (Obligation, Permission, and Forbiddenness)",
         "explanation": "Administering medication is an obligation for nurses. Access to the cabinet is permitted for those authorized (nurses). For everyone else (e.g., non-medical staff), access is forbidden."
     },
+
+
+    {
+        "id": 5,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not permitted.",
+        "label": "entailment (Obligation Entails Permission)",
+        "explanation": "If something is obligatory, then its negation is not permitted."
+    },
+
+    {
+        "id": 6,
+        "premise": "You are permitted to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not obligatory.",
+        "label": "entailment (Obligation Entails Permission)",
+        "explanation": "If something is permitted, then its negation is not obligatory."
+    },
+
 ]
+
+Group B - Conditional obligations
+[
+ {
+        "id": 7,
+        "premise": "If you are on duty, you must carry a radio.",
+        "hypothesis": "If you are on duty, you may carry a radio.",
+        "label": "entailment (Conditional , Obligation, Permission)",
+        "explanation": "Since carrying a radio is obligatory when on duty, it must also be permitted under the same condition."
+    },
+
+{
+  "id": 8,
+  "premise": "If you are in the laboratory, you are not permitted to drink.",
+  "hypothesis": "If you are in the laboratory, you must not drink.",
+  "label": "entailment (Conditional, Non-permission, Obligation)",
+  "explanation": "Since drinking is not permitted in the laboratory, it is obligatory not to drink under the same condition."
+},
+
+{
+  "id": 9,
+  "premise": "If you ride a bicycle at night, you must turn on the lights.",
+  "hypothesis": "If you ride a bicycle at night, you are forbidden from riding without the lights on.",
+  "label": "entailment (Conditional, Obligation, Prohibition)",
+  "explanation": "Since turning on the lights is obligatory when riding at night, not turning them on is prohibited under that condition."
+}
+]
+
+
+Group C - Factual detachment
+[
+{
+    "id": 10,
+    "premise": "If you are entering the construction zone, you must wear protective boots. You are entering the construction zone.",
+    "hypothesis": "You must wear protective boots.",
+    "label": "Factual detachment",
+    "explanation": "Given that entering the construction zone triggers the obligation to wear protective boots, and you are entering it, the obligation holds absolutely."
+  }, 
+
+{
+    "id": 11,
+    "premise": "If someone is in serious danger, you must help them. That person is in serious danger.",
+    "hypothesis": "You must help the person.",
+    "label": "Factual detachment",
+    "explanation": "Since helping is required when someone is in serious danger, and this person is in such a situation, the obligation to help now holds unconditionally."
+  },
+
+{
+    "id": 12,
+    "premise": "If a person has entrusted you with private information, you must keep their confidence. They have entrusted you with private information.",
+    "hypothesis": "You must keep their confidence.",
+    "label": "Factual detachment",
+    "explanation": "As maintaining confidentiality is obligatory when someone shares private information, and this has occurred, you now have an unconditional duty to keep it private."
+  }
+]
+
+Group D - Deontic detachment
+[
+{
+  "id": 13,
+  "premise": "If you donate to charity, you must do it privately. You must donate to charity.",
+  "hypothesis": "You must donate privately.",
+  "label": "(Deontic detachment)",
+  "explanation": "Since donating privately is obligatory when you donate to charity, and you are obliged to donate to charity, it follows that you are unconditionally obliged to donate privately."
+},
+{
+  "id": 14,
+  "premise": "If you go to your grandfather’s birthday party, you must bring a present. You must go to your grandfather’s birthday party.",
+  "hypothesis": "You must bring a present.",
+  "label": "entailment (Deontic detachment)",
+  "explanation": "Since bringing a present is obligatory given that you go to your grandfather’s birthday party, and going to your grandfather’s birthday party is obligatory, it follows that you are unconditionally obliged to bring a present."
+},
+
+{
+  "id": 15,
+  "premise": "If you drive a car, you must not use your phone. You must drive a car to pick up your sibling.",
+  "hypothesis": "You must not use your phone.",
+  "label": "entailment (Deontic detachment)",
+  "explanation": "Since not using your phone is obligatory when you drive, and you are obligated to drive to pick up your sibling, it follows that you are unconditionally prohibited from using your phone."
+},
+]
+
+Group E - Contrary-to-duty obligations
+[
+{
+  "id": 16,
+  "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
+  "hypothesis": "You ought not to tell that you are going.",
+  "label": "entailment (Factual detachment)",
+  "explanation": "Since not going entails the obligation not to tell that you are going, and it is a fact that you do not go, the unconditional obligation not to tell follows by factual detachment."
+},
+
+{
+  "id": 17,
+  "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
+  "hypothesis": "You ought to tell that you are going.",
+  "label": "entailment (Deontic detachment)",
+  "explanation": "Since telling that you are going is obligatory if you go, and going is itself obligatory, deontic detachment yields the unconditional obligation to tell that you are going despite the factual proposition that you do not go."
+}
+]
+
