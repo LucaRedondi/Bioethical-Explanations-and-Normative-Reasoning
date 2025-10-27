@@ -1,9 +1,64 @@
+
+Practical default reasoning
+
 Group A - From principle to general duties
+
+A1 - Cases that involve the principle of non-malevolence.
+[
+{
+    "id": 2,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not kill.",
+    "label": "Default reasoning",
+    "explanation": "Killing involves harming."
+  }, 
+
+{
+    "id": 2,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not trash talk others.",
+    "label": "Default reasoning",
+    "explanation": "Typically, people don't like being trash-talked."
+  },
+
+ {
+    "id": 3,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not injure others.",
+    "label": "Default reasoning",
+    "explanation": "Typically, to injure others involves doing harm."
+  }
+]
+
+A2 - Cases that involve the principle of beneficence.
+[
+ {
+    "id": 4,
+    "premise": "You should help others.",
+    "hypothesis": "You should comfort someone who is crying.",
+    "label": "Default reasoning",
+    "explanation": "Typically, crying people enjoy comfort."
+  },
+{
+    "id": 5,
+    "premise": "You should promote others’ happiness.",
+    "hypothesis": "You should help others in need.",
+    "label": "Default reasoning",
+    "explanation": "Typically, helping those in need supports their happiness."
+  },
+{
+    "id": 6,
+    "premise": "You should promote others’ wellbeing.",
+    "hypothesis": "You should save someone in danger.",
+    "label": "Default reasoning",
+    "explanation": "Saving someone in danger promotes the person's wellbeing."
+  },
+]
 
 
 Group B - From principle to prima-facie obligations in particular cases
 
-Cases that involve respect for others' autonomy.
+B3 - Cases that involve respect for others' autonomy.
 
 [
  {
@@ -29,8 +84,7 @@ Cases that involve respect for others' autonomy.
   },
 ]
 
-Cases that involve the principle of justice.
-
+B4 - Cases that involve the principle of justice.
 
  {
   "id": 7,
