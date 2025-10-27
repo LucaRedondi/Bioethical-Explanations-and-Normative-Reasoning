@@ -1,1 +1,17 @@
 Modalities - Epistemic reasoning
+[
+ {
+        "id": 1,
+        "premise": "Mary might not have been at the wedding.",
+        "hypothesis": "It’s not the case that Mary must have been at the wedding.",
+        "label": "entailment",
+        "explanation": " "
+    },
+    {
+        "id": 2,
+        "premise": "It’s not the case that Mary must have been at the wedding.",
+        "hypothesis": "Mary might not have been at the wedding.",
+        "label": "entailment",
+        "explanation": " "
+    },
+]
