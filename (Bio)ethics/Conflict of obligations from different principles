@@ -1,5 +1,47 @@
 Conflict of obligations from different principles
 Group A - Applied ethics at large
+[
+{
+  "id": 1,
+  "premise": "Bob asks if a dress suits him. You can tell a comforting lie or tell the harsh truth, but not both. You should promote others’ wellbeing. You should not lie.",
+  "hypothesis": "You ought to tell the truth.",
+  "label": "Conflict between different principles (Honesty vs. Beneficence)",
+  "explanation": "There is a prima facie obligation to tell a lie to promote Bob’s psychological wellbeing, and there is a prima facie obligation to tell the truth because you should not lie. In this case, telling the truth takes priority because Bob trusts you to be honest."
+}
+
+{
+  "id": 2,
+  "premise": "You just met Bob. You do not like how Bob is dressed. Bob asks if you like his outfit. You should be polite. You should not lie.",
+  "hypothesis": "You should tell Bob he is dressed nicely.",
+  "label": "Conflict between different principles (Honesty vs. Politeness)",
+  "explanation": "There is a prima facie obligation to tell the truth because you should not lie, and there is a prima facie obligation to tell Bob he is dressed nicely because you should be polite. In this case, politeness takes priority because you do not have a trust-based relationship with Bob."
+},
+
+{
+  "id": 3,
+  "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. There is an absolute duty not to lie. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to tell the truth.",
+  "label": "Conflict between different principles (Honesty vs. Beneficence)",
+  "explanation": "There is a prima facie obligation to protect your friend and a prima facie obligation not to lie. Because the duty not to lie is absolute, telling the truth takes priority."
+},
+
+{
+  "id": 4,
+  "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. You should not lie. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to lie to protect your friend.",
+  "label": "Conflict between different principles (Honesty vs. Beneficence)",
+  "explanation": "There is a prima facie obligation not to lie and a prima facie obligation to protect your friend’s life. Protecting your friend’s life takes priority over not lying."
+}
+
+{
+  "id": 5,
+  "premise": "You promised to give money to Bob. Bob lied to manipulate you into making the promise. Mary genuinely needs that money. You should keep your promises. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to donate the money to Mary.",
+  "label": "Conflict between different principles with undercutting condition",
+  "explanation": "There is a prima facie obligation to give the money to Bob because you should keep your promises, and a prima facie obligation to help Mary because you should promote others’ wellbeing. But the promise was made under manipulation. So the usual obligation to keep a promise does not apply here."
+}
+]
+
 
 Group B - Bioethics
 [
@@ -33,5 +75,13 @@ Group B - Bioethics
   "hypothesis": "You ought to tell the patient the truth.",
   "label": "Conflict between different principles (Autonomy vs. Beneficence)",
   "explanation": "There is a prima facie obligation to promote the patient’s wellbeing and a prima facie obligation to respect the patient’s autonomy. In this case, respecting the patient’s autonomy takes priority."
+},
+
+{
+  "id": 5,
+  "premise": "A patient refuses a simple and life-saving treatment. The patient is severely confused because of a high fever. You should respect others’ autonomy. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to give the treatment.",
+  "label": "Undercutting condition (Autonomy requires competent choice)",
+  "explanation": "There is a prima facie obligation to follow the patient’s refusal because you should respect autonomy, and a prima facie obligation to give the treatment because you should promote wellbeing. But the refusal was made without mental competence. So the usual obligation to respect autonomy does not apply here."
 }
 ]
