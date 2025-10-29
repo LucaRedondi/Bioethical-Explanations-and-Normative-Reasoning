@@ -22,7 +22,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "premise": "A policeman is directing a crowd of people walking.",
         "hypothesis": "A policeman is herding pedestrians.",
         "label": "entailment",
-        "explanation": " directing a crowd of people is other expression of  herding pedestrians."
+        "explanation": "Directing a crowd of people is other expression of  herding pedestrians."
     },
     {
         "id": 4,
@@ -36,6 +36,6 @@ In the following cases, the validity of the explanation lies in the recognition 
         "premise": "A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.",
         "hypothesis": "Two men are dressed in makeup",
         "label": "entailment",
-        "explanation": " In red makeup is a type of makeup."
+        "explanation": "Red makeup is a type of makeup."
     }
 ]
