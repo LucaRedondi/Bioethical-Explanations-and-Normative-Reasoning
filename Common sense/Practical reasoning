@@ -1,54 +1,53 @@
 Common sense - Practical reasoning
 Cases that involve the principle of non-malevolence
 [
-{
+  {
     "id": 1,
     "premise": "Killing is wrong.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": ""
+    "explanation": "To say that killing is wrong is to say that you shall not kill."
   },
-
-{
-    "id": 1,
+  {
+    "id": 2,
     "premise": "To kill is wrong.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": ""
+    "explanation": "To say that to kill is wrong is to say that you shall not kill."
   },
-
-{
+  {
     "id": 3,
     "premise": "To take a person's life is morally forbidden.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": ""
-  },
+    "explanation": "To say that to take a person's life is morally forbidden is to say that you shall not kill."
+  }
 ]
 
+
+Cases that involve the principle of beneficence
 [
   {
     "id": 4,
     "premise": "Helping others is good.",
     "hypothesis": "You should help others.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that helping others is good is to say that you should help others."
   },
   {
     "id": 5,
     "premise": "To help others is good.",
     "hypothesis": "You should help others.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that to help others is good is to say that you should help others."
   },
-
-{
-  "id": 6,
-  "premise": "Helping others is morally appropriate.",
-  "hypothesis": "You should help others.",
-  "label": "natural language complexity",
-  "explanation": ""
-}
+  {
+    "id": 6,
+    "premise": "Helping others is morally appropriate.",
+    "hypothesis": "You should help others.",
+    "label": "natural language complexity",
+    "explanation": "To say that helping others is morally appropriate is to say that you should help others."
+  }
 ]
 
 Cases that involve respect for others' autonomy.
@@ -59,21 +58,21 @@ Cases that involve respect for others' autonomy.
     "premise": "Respecting people’s decisions is right.",
     "hypothesis": "People’s decisions should be respected.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that respecting people’s decisions is right is to say that people’s decisions should be respected."
   },
   {
     "id": 8,
     "premise": "To respect people’s choices is good.",
     "hypothesis": "We should respect people’s choices.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that to respect people’s choices is good is to say that we should respect people’s choices."
   },
   {
     "id": 9,
     "premise": "It is morally appropriate to respect each person’s will.",
     "hypothesis": "Each person’s will should be respected.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that it is morally appropriate to respect each person’s will is to say that each person’s will should be respected."
   }
 ]
 
@@ -85,20 +84,20 @@ Cases that involve the principle of justice.
     "premise": "Treating people fairly is right.",
     "hypothesis": "People should be treated fairly.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that treating people fairly is right is to say that people should be treated fairly."
   },
   {
     "id": 11,
     "premise": "To treat everyone equally is good.",
     "hypothesis": "Everyone should be treated equally.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that to treat everyone equally is good is to say that everyone should be treated equally."
   },
   {
     "id": 12,
     "premise": "It is morally appropriate to give each person what they deserve.",
     "hypothesis": "Each person ought to receive what they deserve.",
     "label": "natural language complexity",
-    "explanation": ""
+    "explanation": "To say that it is morally appropriate to give each person what they deserve is to say that each person ought to receive what they deserve."
   }
 ]
