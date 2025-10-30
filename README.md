@@ -68,7 +68,6 @@ Explanation: If something is obligatory, then it is also permitted.
 Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, crucial in the development of modal deontic logics. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligation gives rise to two inference patterns: 
 
 -	Factual detachment. From a conditional obligation to A given B, and from the fact B, we detach an obligation to A.
--	
 -	Deontic detachment. From a conditional obligation to A given B, and an obligation to B, we detach an obligation to A.
 
 We provide cases that exhibit factual detachment, as well as cases that exhibit deontic detachment. Finally, we translate into our format the so-called Chisholm Puzzle; i.e., a scenario in which factual detachment and deontic detachment generate opposite obligations. 
