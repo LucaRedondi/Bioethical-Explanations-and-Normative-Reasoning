@@ -62,19 +62,21 @@ Group 3 - Cases that involve respect for others' autonomy.
   "label": "Instantiation",
   "explanation": "People who say they are vegetarians generally do not like being offered meat."
 },
- {
-    "id": 8,
-    "premise": "People should decide how they spend their time. Dana keeps looking at their watch during the conversation.",
-    "hypothesis": "You should allow Dana to leave if they want to.",
-    "label": "Instantiation",
-    "explanation": "Repeatedly checking a watch indicates wanting to do something else."
-  },
+
+{
+  "id": 8,
+  "premise": "You should respect others’ autonomy. Bob declined your proposal to meet at his place.",
+  "hypothesis": "You should not show up at Bob’s place.",
+  "label": "Instantiation",
+  "explanation": "Respecting others’ autonomy means not going where you are not wanted. Since Bob declined your proposal, he likely does not want you at his place."
+},
+
 {
     "id": 9,
     "premise": "You should respect others' autonomy. Bob shys away from your attention.",
     "hypothesis": "You should leave Bob in peace.",
     "label": "Instantiation",
-    "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company."
+    "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company. Respecting Bob's authonomy implies leaving him in peace if he does not enjoy your company."
   },
 ]
 
