@@ -45,14 +45,9 @@ Sometimes to bridge from the premises to the explanation one needs some default 
 - Hypothesis: A man walks in Winter.
 - Explanation: If there is snow, then it is likely to be Winter.
 
-This can happen in deontic reasoning as well:
-
-- Premises: Killing is wrong.
-- Hypothesis: You should not shoot Bob.
-- Explanation: Shooting at someone typically implies killing.
 
 # 4.	Modalities
-The alethic modalities (necessity, possibility, impossibility) and the deontic modalities (obligation, permission, prohibition) display a certain logical relations:  for instance, if p is necessary then not-p is not possible; and similarly: if p is obligatory then not-p is not permissible. The cases in this folder are such that, in order to solve them, one must understands the mutual relations between alethic (resp. deontic) modalities. Here is an example:
+The alethic modalities (necessity, possibility, impossibility) and the deontic modalities (obligation, permission, prohibition) display a certain logical relations:  for instance, if p is necessary then not-p is not possible; and similarly: if p is obligatory then not-p is not permissible. The cases in this folder are such that, in order to solve them, one must understands the mutual relations between modalities. Here is an example:
 
 - Premises: To save someone is obligatory.
 - Hypothesis: To save someone is permitted. 
@@ -60,24 +55,27 @@ The alethic modalities (necessity, possibility, impossibility) and the deontic m
 
 Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, crucial in the development of modal deontic logics. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligation gives rise to two inference patterns: 
 
--	Factual detachment. From a conditional obligation to A given B, and from the fact B, we detach an obligation to A.
--	Deontic detachment. From a conditional obligation to A given B, and an obligation to B, we detach an obligation to A.
+-	Factual detachment. From a conditional obligation to A given B and the fact B, we detach an obligation to A.
+-	Deontic detachment. From a conditional obligation to A given B and an obligation to B, we detach an obligation to A.
 
 We provide cases that exhibit factual detachment, as well as cases that exhibit deontic detachment. Finally, we translate into our format the so-called Chisholm Puzzle; i.e., a scenario in which factual detachment and deontic detachment generate opposite obligations. 
 
 # 5.	Bioethics
-The richer part of our Dataset zooms in one specific type of deontic reasoning: ethical reasoning and – more precisely – bioethics. This is where the reasoning patterns introduced so far comes to life, being employed to address realistic and non-trivial ethical cases. Mastering the reasoning patterns introduced so far is not sufficient for analysing some of the bioethical cases, though. In fact, in this folder we also introduce new and context-specific patterns. It is useful to introduce them by providing a simple conceptual analysis of the kind of reasoning we are exploring. One remark is in order: there is no claim that the hypothesis in the cases of this folder is the right thing to do. We don’t even claim that it is the right thing to do if the premises are true, as sometimes the explanation includes some substantial moral takes. What we claim is rather that, given the premises and the explanation, the hypothesis is supported. 
+The richer part of our dataset zooms in one specific type of deontic reasoning: ethical reasoning and – more precisely – bioethics. This is where the reasoning patterns introduced so far comes to life, being employed to address realistic and non-trivial ethical cases. Mastering these reasoning patterns is not sufficient for analysing some of the bioethical cases, though. In fact, in this folder we also present new and context-specific patterns. It is useful to introduce them by providing a simple conceptual analysis of the kind of reasoning we are exploring. One remark is in order: there is no claim that the hypothesis in the cases of this folder is the right thing to do. We don’t even claim that it is the right thing to do if the premises are true, as sometimes the explanation includes some substantial moral takes. What we claim is rather that, given the premises and the explanation, the hypothesis is supported. 
 
-The most prominent approach to bioethics is principlism. Principlism is a framework composed of few general and open-textured principles. Typically, there are four of them: Benevolence, Non-malevolence, Autonomy and Justice. When confronted with a case, one needs to accomplish two tasks: 
+The most prominent approach to bioethics is principlism [see Beauchamp, Childress, 2019]. Principlism is a framework composed of few general and open-textured principles. Typically, there are four of them: Benevolence, Non-malevolence, Autonomy and Justice. When confronted with a case, one needs to accomplish two tasks: 
 1)	Use the principles to identify the relevant prima facie obligations.
 2)	Weigh the prima facie obligations – possibly resolving the conflict between them – to reach an all-things-considered evaluation of the case.
+Here is a schematic representation of the reasoning flow:
+<img width="1503" height="869" alt="Screenshot 2025-10-30 145901" src="https://github.com/user-attachments/assets/4521ab83-3f04-46a0-865b-2c6e646cb3a3" />
 Each of the four subfolder explores one aspect of one of these reasoning steps.  
 
-In the first subfolder, we propose cases in which the second step is trivial, typically because there is only one prima facie obligation. This allows us to focus on the first inference step: the detachment of prima-facie concrete obligation from general principles. 
+In the first subfolder, we propose cases in which the second step is trivial, typically because there is only one prima facie obligation. This allows us to focus on the first inference step: the detachment of prima-facie concrete obligations from general principles. 
 
-In the subfolders 2, 3 and 4, we explore the reasoning patterns that emerge in the second step. Subfolder 2 contains cases in which the detachment of a prima facie obligation is undercut. For example, if a patient refuses treatment, the principle of autonomy grounds a prima facie reason for not respecting the decision. But if we realize that the patient is not competent because of drugs abuse, then its refusal does not count as a reason for not giving the treatment any more. Subfolder 3 explores conflict of prima-facie obligation grounded in the same principle. For example, we consider problem of resources-allocation in which benevolence grounds contrasting prima facie obligation toward different individuals. The subfolder 4 explores conflict between different principles, that emerges, for example, when a competent patient refuse a treatment from which she could benefit. 
+In the subfolders 2, 3 and 4, we explore the reasoning patterns that emerge in the second step. Subfolder 2 contains cases in which the detachment of a prima facie obligation is undercut. For example, if a patient refuses treatment, the principle of autonomy grounds a prima facie reason for not respecting the decision. But if a closer scrutiny reveals that the patient is not competent because of drugs abuse, then its refusal does not count as a reason for not giving the treatment any more. Subfolder 3 explores conflict of prima-facie obligations grounded in the same principle. For example, we consider problems of resources-allocation in which benevolence grounds contrasting prima facie obligation toward different individuals. The subfolder 4 explores conflict between different principles; this type of conflict emerges, for example, when a competent patient refuses a medical treatment. 
 
-The cases in subfolder 5 are the most complex. The form a roaster of possible scenario concerning the ehtical issues around the practice of euthanasia. These cases involve reasoning pattern that have already be introduced elsewhere in the repository. Their addition to the repository consists in trying to approximate the complexity of real life scenarios. 
+The cases in subfolder 5 are the most complex. They form a roaster of possible scenario concerning the ehtical issues around the practice of euthanasia. Their addition to the repository consists in their complexity: they aim to approximate the richness and ambiguity of real life choices. We choose euthanasia for two reasons. First, when we analyze cases that involve euthanasia different principles are relevant together, giving rise to internal and external conflict. Second, euthanasia is a topic that encompasses a variety of different scenarios: passive and active euthanasia, sucide, refuse of treatment... Thus, the topic is well-suited to construct a cluster of different cases, that involves different factual contexts, different nuances in conceiving the ethical principles, and different strategy to handle conflict between principles.    
+
 
 
 # References to other Datasets
