@@ -15,7 +15,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "premise": "Seven men wearing bright orange reflective vests are looking inside the door of a red train.",
         "hypothesis": "A group of men are looking in a train.",
         "label": "entailment",
-        "explanation": " Seven men are looking in a train."
+        "explanation": " Seven men are a group of men."
     },
     {
         "id": 3,
