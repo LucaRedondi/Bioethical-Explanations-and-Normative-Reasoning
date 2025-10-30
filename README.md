@@ -24,13 +24,19 @@ The cases in this folder are such that, by simply applying classical logic on th
 
 # 2.	Common sense
 Consider the example:
+
 Premises: A young child is outside.
+
 Hypothesis: An infant is outside.
+
 Explanation: A young child is an infant.
 
 Here the missing step consists in establishing that two terms are equivalent. In practical reasoning, we can have deontic statements expressed in different ways in natural language:
+
 Premises: Killing is wrong.
+
 Hypothesis: You should not kill. 
+
 Explanation: To say that killing is wrong is to say that you should not kill. 
 
 In some specific normative theories, the two propositions might actually have different meaning, just as in some factual context a young child might not be an infant. However, in normal circumstances the explanations provided above – both the epistemic and the deontic one – are to be accepted as valid. 
@@ -38,13 +44,19 @@ In some specific normative theories, the two propositions might actually have di
 
 # 3.	Default reasoning
 Sometimes to bridge from the premises to the explanation one needs some default assumption:
+
 Premises: A man walks in the snow.
+
 Hypothesis: A man walks in Winter.
+
 Explanation: If there is snow, then it is likely to be Winter.
 
 This can happen in deontic reasoning as well:
+
 Premises: Killing is wrong.
+
 Hypothesis: You should not shoot Bob.
+
 Explanation: Shooting at someone typically implies killing.
 
 # 4.	Modalities
@@ -54,7 +66,9 @@ Hypothesis: To save someone is permitted.
 Explanation: If something is obligatory, then it is also permitted. 
 
 Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, crucial in the development of modal deontic logics. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligation gives rise to two inference patterns: 
--	Factual detachment. From a conditional obligation to A given B, and from the fact B, we detach an obligation to A. 
+
+-	Factual detachment. From a conditional obligation to A given B, and from the fact B, we detach an obligation to A.
+-	
 -	Deontic detachment. From a conditional obligation to A given B, and an obligation to B, we detach an obligation to A.
 
 We provide cases that exhibit factual detachment, as well as cases that exhibit deontic detachment. Finally, we translate into our format the so-called Chisholm Puzzle; i.e., a scenario in which factual detachment and deontic detachment generate opposite obligations. 
