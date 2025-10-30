@@ -1,10 +1,10 @@
 # Deontic-Explanations-Dataset
 
 # The aim of the dataset
-The focus of this dataset is deontic reasoning and – especially – ethical reasoning. Ethical reasoning displays several different inference patterns, including some shared with epistemic reasoning – for instance when we reasons about the factual circumstances of action –. We aim at providing a comprehensive collection of cases that show these reasoning patterns at work. We tried to present each of the patterns by observing it in isolation in some simple cases, before moving on to complex cases in which it is integrated with the other patterns. This choice is reflected by the structure of the Dataset: each folder contains cases that target a certain type (or combination of types) of reasoning. 
+The focus of this dataset is deontic reasoning and – especially – ethical reasoning. Ethical reasoning displays several different inference patterns, including some shared with epistemic reasoning – for instance when we reasons about the factual circumstances of action –. We aim at providing a comprehensive collection of cases that show these reasoning patterns at work. We tried to present each of the patterns in isolation using some simple cases, before moving on to complex cases in which it is integrated with the other patterns. This choice is reflected by the structure of the Dataset: each folder contains cases that target a certain type (or combination of types) of reasoning. 
 
 # The format of cases
-Each case is composed by a set of premises, a hypothesis and an explanation. The premises generally contain relevant information about the facts as well as the moral principles involved in the case. To move from the premises to the hypothesis, some reasoning steps are required. These are provided by the explanation. Here is an example:
+Each case is composed by a set of premises, a hypothesis and an explanation. The premises contain relevant information about the facts as well as the moral principles involved in the case. To move from the premises to the hypothesis, some reasoning steps are required. These are provided by the explanation. Here is an example:
 
 Premises: Bob declines your proposal to meet at his place. You should respect others’ autonomy.
 
