@@ -1,5 +1,4 @@
 Case-study: euthanasia
-Note: I should look at the different type of euthanasia to organize this part of the repository
 
 [
 {
@@ -7,7 +6,7 @@ Note: I should look at the different type of euthanasia to organize this part of
   "premises": "The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. People should decide for themselves.",
   "hypothesis": "It is morally permitted for the patient to refuse treatment.",
   "label": "Autonomy-based justification",
-  "explanation": "Because people should decide for themselves, the patient’s choice should be respected."
+  "explanation": "Because people should decide for themselves, the patient’s choice is morally permissible."
 }
 
 {
