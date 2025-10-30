@@ -26,17 +26,9 @@ Group A - On obligation, permission and prohibition
         "label": "entailment (Forbidden vs. Permitted)",
         "explanation": "Something is forbidden if and only if it is not permitted."
     },
+
     {
         "id": 4,
-        "premise": "Nurses are obliged to administer medication to patients during their shift. Only nurses are permitted to access the medication cabinet. Non-medical staff are forbidden from accessing the medication cabinet. ",
-        "hypothesis": " If you are not a nurse, you are not permitted to access the medication cabinet.",
-        "label": "entailment (Obligation, Permission, and Forbiddenness)",
-        "explanation": "Administering medication is an obligation for nurses. Access to the cabinet is permitted for those authorized (nurses). For everyone else (e.g., non-medical staff), access is forbidden."
-    },
-
-
-    {
-        "id": 5,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not permitted.",
         "label": "entailment (Obligation Entails Permission)",
@@ -44,7 +36,7 @@ Group A - On obligation, permission and prohibition
     },
 
     {
-        "id": 6,
+        "id": 5,
         "premise": "You are permitted to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not obligatory.",
         "label": "entailment (Obligation Entails Permission)",
@@ -56,7 +48,7 @@ Group A - On obligation, permission and prohibition
 Group B - Conditional obligations
 [
  {
-        "id": 7,
+        "id": 6,
         "premise": "If you are on duty, you must carry a radio.",
         "hypothesis": "If you are on duty, you may carry a radio.",
         "label": "entailment (Conditional , Obligation, Permission)",
@@ -64,7 +56,7 @@ Group B - Conditional obligations
     },
 
 {
-  "id": 8,
+  "id": 7,
   "premise": "If you are in the laboratory, you are not permitted to drink.",
   "hypothesis": "If you are in the laboratory, you must not drink.",
   "label": "entailment (Conditional, Non-permission, Obligation)",
@@ -72,7 +64,7 @@ Group B - Conditional obligations
 },
 
 {
-  "id": 9,
+  "id": 8,
   "premise": "If you ride a bicycle at night, you must turn on the lights.",
   "hypothesis": "If you ride a bicycle at night, you are forbidden from riding without the lights on.",
   "label": "entailment (Conditional, Obligation, Prohibition)",
@@ -84,15 +76,15 @@ Group B - Conditional obligations
 Group C - Factual detachment
 [
 {
-    "id": 10,
+    "id": 9,
     "premise": "If you are entering the construction zone, you must wear protective boots. You are entering the construction zone.",
     "hypothesis": "You must wear protective boots.",
     "label": "Factual detachment",
-    "explanation": "Given that entering the construction zone triggers the obligation to wear protective boots, and you are entering it, the obligation holds absolutely."
+    "explanation": "Given that entering the construction zone triggers the obligation to wear protective boots, and you are entering it, you must wear protective boots."
   }, 
 
 {
-    "id": 11,
+    "id": 10,
     "premise": "If someone is in serious danger, you must help them. That person is in serious danger.",
     "hypothesis": "You must help the person.",
     "label": "Factual detachment",
@@ -100,7 +92,7 @@ Group C - Factual detachment
   },
 
 {
-    "id": 12,
+    "id": 11,
     "premise": "If a person has entrusted you with private information, you must keep their confidence. They have entrusted you with private information.",
     "hypothesis": "You must keep their confidence.",
     "label": "Factual detachment",
@@ -130,7 +122,7 @@ Group D - Deontic detachment
   "premise": "If you drive a car, you must not use your phone. You must drive a car to pick up your sibling.",
   "hypothesis": "You must not use your phone.",
   "label": "entailment (Deontic detachment)",
-  "explanation": "Since not using your phone is obligatory when you drive, and you are obligated to drive to pick up your sibling, it follows that you are unconditionally prohibited from using your phone."
+  "explanation": "Since not using your phone is obligatory when you drive, and you are obligated to drive to pick up your sibling, it follows that you are prohibited from using your phone."
 },
 ]
 
