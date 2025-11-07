@@ -9,21 +9,21 @@ Group A - On obligation, permission and prohibition
         "id": 1,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "You are permitted to submit the assignment.",
-        "label": "entailment (Obligation Entails Permission)",
+        "label": "Obligation and Permission",
         "explanation": "If something is obligatory, then it is permitted."
     },
     {
         "id": 2,
         "premise": "You are not allowed to park here.",
         "hypothesis": "You are obliged not to park here.",
-        "label": "entailment (Obligation and Forbiddenness)",
+        "label": "Obligation and Forbiddenness",
         "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
     },
     {
         "id": 3,
         "premise": "It is forbidden to access the confidential files.",
         "hypothesis": "You are not permitted to access the confidential files.",
-        "label": "entailment (Forbidden vs. Permitted)",
+        "label": "Forbiddenness and Permission",
         "explanation": "Something is forbidden if and only if it is not permitted."
     },
 
@@ -31,7 +31,7 @@ Group A - On obligation, permission and prohibition
         "id": 4,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not permitted.",
-        "label": "entailment (Obligation Entails Permission)",
+        "label": "Obligation and Permission",
         "explanation": "If something is obligatory, then its negation is not permitted."
     },
 
@@ -39,16 +39,39 @@ Group A - On obligation, permission and prohibition
         "id": 5,
         "premise": "You are permitted to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not obligatory.",
-        "label": "entailment (Obligation Entails Permission)",
+        "label": "Obligation and Permission",
         "explanation": "If something is permitted, then its negation is not obligatory."
     },
 
+ {
+        "id": 6,
+        "premise": "You are not permitted to steal.",
+        "hypothesis": "You are not obliged to steal.",
+        "label": "Obligation and Permission",
+        "explanation": "If something is not permitted, then it is also not obligatory."
+    },
+
+{
+  "id": 7,
+  "premise": "You are not permitted to steal. You are not permitted to kill.",
+  "hypothesis": "You are obliged not to steal and not to kill.",
+  "label": "Permission and Obligation",
+  "explanation": "If an action is not permitted, then one is obliged not to do it. If you are obliged to do one action, and you are also obliged to do another action, then you are obliged to do both."
+},
+
+{
+  "id": 8,
+  "premise": "It is not permissible to drink alcohol and to drive. It is obligatory to drive home.",
+  "hypothesis": "It is prohibited to drink alcohol.",
+  "label": "Prohibition, Obligation and Permission",
+  "explanation": "Since driving home is obligatory, and the combination of drinking and driving is not permissible, drinking alcohol is prohibited."
+}
 ]
 
 Group B - Conditional obligations
 [
  {
-        "id": 6,
+        "id": 9,
         "premise": "If you are on duty, you must carry a radio.",
         "hypothesis": "If you are on duty, you may carry a radio.",
         "label": "entailment (Conditional , Obligation, Permission)",
@@ -56,7 +79,7 @@ Group B - Conditional obligations
     },
 
 {
-  "id": 7,
+  "id": 10,
   "premise": "If you are in the laboratory, you are not permitted to drink.",
   "hypothesis": "If you are in the laboratory, you must not drink.",
   "label": "entailment (Conditional, Non-permission, Obligation)",
@@ -64,7 +87,7 @@ Group B - Conditional obligations
 },
 
 {
-  "id": 8,
+  "id": 11,
   "premise": "If you ride a bicycle at night, you must turn on the lights.",
   "hypothesis": "If you ride a bicycle at night, you are forbidden from riding without the lights on.",
   "label": "entailment (Conditional, Obligation, Prohibition)",
@@ -76,7 +99,7 @@ Group B - Conditional obligations
 Group C - Factual detachment
 [
 {
-    "id": 9,
+    "id": 12,
     "premise": "If you are entering the construction zone, you must wear protective boots. You are entering the construction zone.",
     "hypothesis": "You must wear protective boots.",
     "label": "Factual detachment",
@@ -84,7 +107,7 @@ Group C - Factual detachment
   }, 
 
 {
-    "id": 10,
+    "id": 13,
     "premise": "If someone is in serious danger, you must help them. That person is in serious danger.",
     "hypothesis": "You must help the person.",
     "label": "Factual detachment",
@@ -92,7 +115,7 @@ Group C - Factual detachment
   },
 
 {
-    "id": 11,
+    "id": 14,
     "premise": "If a person has entrusted you with private information, you must keep their confidence. They have entrusted you with private information.",
     "hypothesis": "You must keep their confidence.",
     "label": "Factual detachment",
@@ -103,14 +126,14 @@ Group C - Factual detachment
 Group D - Deontic detachment
 [
 {
-  "id": 13,
+  "id": 15,
   "premise": "If you donate to charity, you must do it privately. You must donate to charity.",
   "hypothesis": "You must donate privately.",
   "label": "(Deontic detachment)",
   "explanation": "Since donating privately is obligatory when you donate to charity, and you are obliged to donate to charity, it follows that you are unconditionally obliged to donate privately."
 },
 {
-  "id": 14,
+  "id": 16,
   "premise": "If you go to your grandfather’s birthday party, you must bring a present. You must go to your grandfather’s birthday party.",
   "hypothesis": "You must bring a present.",
   "label": "entailment (Deontic detachment)",
@@ -118,7 +141,7 @@ Group D - Deontic detachment
 },
 
 {
-  "id": 15,
+  "id": 17,
   "premise": "If you drive a car, you must not use your phone. You must drive a car to pick up your sibling.",
   "hypothesis": "You must not use your phone.",
   "label": "entailment (Deontic detachment)",
@@ -129,7 +152,7 @@ Group D - Deontic detachment
 Group E - Contrary-to-duty obligations
 [
 {
-  "id": 16,
+  "id": 18,
   "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
   "hypothesis": "You ought not to tell that you are going.",
   "label": "entailment (Factual detachment)",
@@ -137,7 +160,7 @@ Group E - Contrary-to-duty obligations
 },
 
 {
-  "id": 17,
+  "id": 19,
   "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
   "hypothesis": "You ought to tell that you are going.",
   "label": "entailment (Deontic detachment)",
