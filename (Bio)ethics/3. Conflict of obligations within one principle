@@ -4,15 +4,15 @@ Group A - Applied ethics at large
 [
 {
   "id": 1,
-  "premise": "You can either comfort a stranger or help another stranger in medical distress, but not both. You should promote others’ wellbeing.",
+  "premise": "You can either comfort a stranger or help another stranger in medical distress, but not both. Promoting others’ wellbeing is good.",
   "hypothesis": "You ought to help the stranger in medical distress.",
   "label": "Conflict within one principle",
-  "explanation": "Crying typically indicates emotional distress. Medical danger indicates a threat to wellbeing. Given that you should promote others’ wellbeing, emotional distress is a reason to comfort the first stranger. Given that you should promote others’ wellbeing, medical danger is a reason to help the second stranger. Because reasons based on urgent physical danger are stronger, the reason to help the stranger in medical distress takes priority."
+  "explanation": "Crying typically indicates emotional distress. Given that you should promote others’ wellbeing, emotional distress is a reason to comfort the first stranger. Given that you should promote others’ wellbeing, medical danger is a reason to help the second stranger. Because reasons based on urgent physical danger are stronger, the reason to help the stranger in medical distress takes priority."
 },
 
   {
     "id": 2,
-    "premise": "You can either comfort your friend or comfort a stranger, but not both. You should promote others’ wellbeing.",
+    "premise": "You can either comfort your friend or comfort a stranger, but not both. Promoting others’ wellbeing is good",
     "hypothesis": "You ought to comfort your friend.",
     "label": "Conflict within one principle",
     "explanation": "Given that you should promote others’ wellbeing, the stranger's emotional distress is a reason to comfort the stranger. Given that you should promote others’ wellbeing, your friend's emotional distress is a reason to comfort your friend. Since you have a closer relationship with your friend, the reason to comfort your friend is stronger."
@@ -20,7 +20,7 @@ Group A - Applied ethics at large
 
   {
     "id": 3,
-    "premise": "You can either save two strangers in danger or save one stranger in danger, but not both. You should promote others’ wellbeing.",
+    "premise": "You can either save two strangers in danger or save one stranger in danger, but not both. Promoting others’ wellbeing is good.",
     "hypothesis": "You ought to save the two strangers.",
     "label": "Conflict within one principle",
     "explanation": "Given that you should promote others’ wellbeing, the two strangers being in danger is a reason to save them. Given that you should promote others’ wellbeing, the one stranger being in danger is a reason to save her. Because saving more people provides more wellbeing, the reason to save the two strangers is stronger."
@@ -28,7 +28,7 @@ Group A - Applied ethics at large
 
   {
     "id": 4,
-    "premise": "You can either expose one person to a dangerous chemical or expose two people to the same danger, but both actions would cause harm. You shall do no harm.",
+    "premise": "You can either expose one person to a dangerous chemical or expose two people to the same danger, but both actions would cause harm. Harming is bad.",
     "hypothesis": "You ought to avoid exposing the two people.",
     "label": "Conflict within one principle",
     "explanation": "Exposure to a dangerous chemical typically indicates harm. Given that you shall do no harm, the harm to one person is a reason not to expose the one, and the harm to two people is a reason not to expose the two. Because preventing greater harm provides the stronger reason, the reason to avoid exposing the two people is stronger."
@@ -36,7 +36,7 @@ Group A - Applied ethics at large
 
   {
     "id": 5,
-    "premise": "If you push the button, one person will die. If you do not push the button, two people will die. You shall do no harm.",
+    "premise": "If you push the button, one person will die. If you do not push the button, two people will die. Harming is bad.",
     "hypothesis": "You ought to push the button.",
     "label": "Conflict within one principle",
     "explanation": "A death indicates serious harm. Given that you shall do no harm, preventing one death is a reason to avoid pushing the button, and preventing two deaths is a reason to push it. Because preventing greater harm provides the stronger reason, the reason to prevent two deaths takes priority and you ought to push the button."
@@ -44,7 +44,7 @@ Group A - Applied ethics at large
 
   {
     "id": 6,
-    "premise": "If you push the button, one person will die; if you do not push the button, two people will die. You shall do no harm.",
+    "premise": "If you push the button, one person will die; if you do not push the button, two people will die. Harming is bad.",
     "hypothesis": "You ought not to push the button.",
     "label": "Conflict within one principle",
     "explanation": "A death indicates serious harm. Given that you shall do no harm, preventing one death is a reason to avoid pushing the button and preventing two deaths is a reason to push it. But actively causing harm typically provides a stronger reason against action. Because avoiding actively causing harm takes priority, the reason not to push the button is stronger."
@@ -55,7 +55,7 @@ Bioethics - Cases about resource-allocation
 [
   {
   "id": 7,
-  "premise": "You can give the only available kidney to a young patient or to an older patient, but not to both. You should promote others’ wellbeing.",
+  "premise": "You can give the only available kidney to a young patient or to an older patient, but not to both. Promoting others’ wellbeing is good.",
   "hypothesis": "You ought to give the kidney to the young patient.",
   "label": "Conflict within one principle",
   "explanation": "Given that you should promote others’ wellbeing, the younger patient’s need for a kidney is a reason to give the kidney to the younger patient. Given that you should promote others’ wellbeing, the older patient’s need is a reason to give the kidney to the older patient. Because the younger patient can benefit more from the transplant, the reason to give the kidney to the younger patient is stronger."
@@ -63,7 +63,7 @@ Bioethics - Cases about resource-allocation
 
  {
   "id": 8,
-  "premise": "You can give the only available kidney to a child or to an adult, but not to both. You should promote others’ wellbeing. In precedent 1, you could give the only available kidney to a young patient or an older patient. In precedent 1, you ought to give the kidney to the young patient.",
+  "premise": "You can give the only available kidney to a child or to an adult, but not to both. Promoting others’ wellbeing is good. In precedent 1, you could give the only available kidney to a young patient or an older patient. In precedent 1, you ought to give the kidney to the young patient.",
   "hypothesis": "You ought to give the kidney to the child.",
   "label": "Conflict within one principle (A fortiori reasoning)",
   "explanation": "Given that you should promote others’ wellbeing, the child’s need for a kidney is a reason to give the kidney to the child. Given that you should promote others’ wellbeing, the adult’s need is a reason to give the kidney to the adult. Since in the precedent case the reason to help the younger patient prevailed, and a child typically benefits even more than a young patient, the reason to give the kidney to the child is stronger here."
@@ -71,7 +71,7 @@ Bioethics - Cases about resource-allocation
 
 {
   "id": 9,
-  "premise": "You can give the only available kidney to a patient who will die soon without it or to a patient whose condition is more stable, but not to both. You should promote others’ wellbeing.",
+  "premise": "You can give the only available kidney to a patient who will die soon without it or to a patient whose condition is more stable, but not to both. Promoting others’ wellbeing is good.",
   "hypothesis": "You ought to give the kidney to the patient who will die soon.",
   "label": "Conflict within one principle",
   "explanation": "Given that you should promote others’ wellbeing, the urgent patient’s need for a kidney is a reason to give the kidney to the urgent patient. Given that you should promote others’ wellbeing, the stable patient’s need is a reason to give the kidney to the stable patient. Because the urgent patient is at immediate risk of death, the reason to help the urgent patient is stronger."
