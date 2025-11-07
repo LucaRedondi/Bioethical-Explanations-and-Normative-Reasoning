@@ -2,28 +2,28 @@ From principles to prima facie reasons
 [
   {
     "id": 1,
-    "premise": "You shall do no harm.",
+    "premise": "Harming is bad",
     "hypothesis": "You shall not kill Mary.",
     "label": "Specification",
-    "explanation": "Given that you shall do no harm, the fact that killing involves harming is a reason not to kill Mary."
+    "explanation": "Given that harming is bad, the fact that killing involves harming is a reason not to kill Mary."
   },
   {
     "id": 2,
-    "premise": "You shall do no harm.",
+    "premise": "Harming is bad.",
     "hypothesis": "You shall not injure John.",
     "label": "Specification",
     "explanation": "Given that you shall do no harm, the fact that injuring John harms him is a reason not to injure John."
   },
   {
     "id": 3,
-    "premise": "You should promote others’ happiness. Mary is in need.",
+    "premise": "Promoting others’ wellbeing is good. Mary is in need.",
     "hypothesis": "You should help Mary.",
     "label": "Specification",
-    "explanation": "Given that you should promote others’ happiness, the fact that Mary is in need is a reason to help her."
+    "explanation": "Given that promoting others’ wellbeing is good, the fact that Mary is in need is a reason to help her."
   },
   {
     "id": 4,
-    "premise": "You should promote others’ wellbeing. Jane is in danger.",
+    "premise": "Promoting others’ wellbeing is good. Jane is in danger.",
     "hypothesis": "You should save Jane.",
     "label": "Specification",
     "explanation": "Given that you should promote others’ wellbeing, the fact that Jane is in danger is a reason to save her."
@@ -62,14 +62,14 @@ From principles to prima facie reasons via epistemic default reasoning
 [
  {
     "id": 9,
-    "premise": "You shall do no harm.",
+    "premise": "Harming is bad.",
     "hypothesis": "You shall not trash talk Bob.",
     "label": "Specification and default reasoning",
     "explanation": "Trash talking typically causes distress. Given that you shall do no harm, the fact that trash talking causes distress is a reason not to trash talk Bob."
   },
 {
     "id": 10,
-    "premise": "You should help others. Bob is crying.",
+    "premise": "Helping others is good. Bob is crying.",
     "hypothesis": "You should comfort Bob.",
     "label": "Specification and default reasoning",
     "explanation": "Crying typically indicates distress. Given that you should help others, the fact that Bob is in distress is a reason to comfort him."
