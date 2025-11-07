@@ -1,1 +1,49 @@
+Defeasible relations between deontic cateogories and evalutative categories. 
 
+[
+  {
+    "id": 1,
+    "premise": "Littering is bad.",
+    "hypothesis": "You ought not to litter.",
+    "label": "default evaluative-to-deontic inference",
+    "explanation": "Typically, what is bad is also forbidden."
+  },
+  {
+    "id": 2,
+    "premise": "Helping a lost child is good.",
+    "hypothesis": "You ought to help the lost child.",
+    "label": "default evaluative-to-deontic inference",
+    "explanation": "Typically, one ought to do what is good."
+  },
+{
+  "id": 3,
+  "premise": "Watching a movie is ethically neutral.",
+  "hypothesis": "You may watch a movie.",
+  "label": "default evaluative-to-deontic inference",
+  "explanation": "Typically, what is ethically neutral is also permitted."
+},
+
+{
+  "id": 4,
+  "premise": "You ought to help your neighbor.",
+  "hypothesis": "Helping your neighbor is good.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what one ought to do is also good."
+},
+
+{
+  "id": 5,
+  "premise": "You ought not to insult people.",
+  "hypothesis": "Insulting people is bad.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what is forbidden is also bad."
+},
+
+{
+  "id": 6,
+  "premise": "You may play board games.",
+  "hypothesis": "Playing board games is not bad.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what is permitted is not bad."
+}
+]
