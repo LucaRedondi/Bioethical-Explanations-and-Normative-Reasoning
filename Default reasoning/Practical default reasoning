@@ -47,3 +47,36 @@ Defeasible relations between deontic cateogories and evalutative categories.
   "explanation": "Typically, what is permitted is not bad."
 }
 ]
+
+Reason-based explanations
+[
+  {
+    "id": 1,
+    "premise": "It is raining heavily.",
+    "hypothesis": "You should take an umbrella.",
+    "label": "normative reason for",
+    "explanation": "The fact that it is raining heavily is a reason to take an umbrella."
+  },
+  {
+    "id": 2,
+    "premise": "Your friend is waiting for you at the café.",
+    "hypothesis": "You should go meet your friend.",
+    "label": "normative reason for",
+    "explanation": "The fact that your friend is waiting is a reason to go meet your friend."
+  },
+  {
+    "id": 3,
+    "premise": "The road is covered with black ice.",
+    "hypothesis": "You should not drive fast.",
+    "label": "normative reason  against",
+    "explanation": "The fact that the road is covered with black ice is a reason against driving fast."
+  },
+  {
+    "id": 4,
+    "premise": "You have a severe allergy to peanuts.",
+    "hypothesis": "You should not eat the peanut cookies.",
+    "label": "normative reason against",
+    "explanation": "The fact that you have a severe allergy to peanuts is a reason against eating the peanut cookies."
+  }
+]
+
