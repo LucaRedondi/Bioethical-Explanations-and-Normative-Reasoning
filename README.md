@@ -36,7 +36,7 @@ In practical reasoning, we can express equivalent deontic statements expressed u
 - Hypothesis: You should not kill. 
 - Explanation: To say that killing is wrong is to say that you should not kill. 
 
-The categories employed in natural language for practical reasoning are typically divided into two families: deontic categories and evaluative categories [see Berker 2022]. In this folder, we only focus on deontic categories. Using deontic categories, the same information about what is wrong and what is right can be expressed in the form of a description of the moral status of an action (e.g., "To kill is forbidden"), or in the prescriptive form of a command, prohibition or permission (e.g., "You shall not kill"). These cases are such that, to obtain the explanation, one needs to infer the prescriptive version of one such statement from the descriptive, or vice versa. 
+The categories employed in natural language for practical reasoning are typically divided into two families: deontic categories and evaluative categories [see Berker 2022]. In this folder, we only focus on the deontic categories. Using deontic categories, the same information about what is wrong and what is right can be expressed in the form of a description of the moral status of an action (e.g., "To kill is forbidden"), or in the prescriptive form of a command, prohibition or permission (e.g., "You shall not kill"). These cases are such that, to obtain the explanation, one needs to infer the prescriptive version of one such statement from the descriptive, or vice versa. 
 
 
 # 3.	Default reasoning
