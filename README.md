@@ -62,7 +62,7 @@ Now consider this other case:
 - Hypothesis: You should help.
 - Explanation: The fact that someone is in need is a reason to help.
 
-In metaethics, the notion of normative reason is used to denote facts that speak in favor of or against a certain action. In the present folder, we focus on cases in which the missing step consists in drawing the reason-relation (the relation of supporting an action or its alternative) from a fact expressed in the premises and an action that is commanded, prohibited, or permitted in the hypothesis. Just as the cases about epistemic default reasoning require some background knowledge of the world, these cases about reason-based practical reasoning require some background understanding of common-sense morality. The idea of a parallelism between defeasible epistemic reasoning and reason-based practical reasoning is not new [see Horty 2012].
+In metaethics, the notion of normative reason is used to denote facts that speak in favor of or against a certain action. In the present folder, we focus on cases in which the missing step consists in drawing the reason-relation (the relation of supporting or disfavoring) from a fact expressed in the premises and an action that is commanded, prohibited, or permitted in the hypothesis. Just as the cases about epistemic default reasoning require some background knowledge of the world, these cases about reason-based practical reasoning require some background understanding of common-sense morality. The idea of a parallelism between defeasible epistemic reasoning and reason-based practical reasoning is not new [see Horty 2012].
 
 
 # 4.	Modalities
