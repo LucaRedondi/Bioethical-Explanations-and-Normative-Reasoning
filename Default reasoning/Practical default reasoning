@@ -51,42 +51,42 @@ Defeasible relations between deontic cateogories and evalutative categories.
 Reason-based explanations
 [
   {
-    "id": 1,
+    "id": 7,
     "premise": "It is raining heavily.",
     "hypothesis": "You should take an umbrella.",
     "label": "normative reason for",
     "explanation": "The fact that it is raining heavily is a reason to take an umbrella."
   },
   {
-    "id": 2,
+    "id": 8,
     "premise": "Your friend is waiting for you at the café.",
     "hypothesis": "You should go meet your friend.",
     "label": "normative reason for",
     "explanation": "The fact that your friend is waiting is a reason to go meet your friend."
   },
   {
-    "id": 3,
+    "id": 9,
     "premise": "The road is covered with black ice.",
     "hypothesis": "You should not drive fast.",
     "label": "normative reason  against",
     "explanation": "The fact that the road is covered with black ice is a reason against driving fast."
   },
   {
-    "id": 4,
+    "id": 10,
     "premise": "You have a severe allergy to peanuts.",
     "hypothesis": "You should not eat the peanut cookies.",
     "label": "normative reason against",
     "explanation": "The fact that you have a severe allergy to peanuts is a reason against eating the peanut cookies."
   },
 {
-  "id": 5,
+  "id": 11,
   "premise": "You promised to return a borrowed book.",
   "hypothesis": "You should return the book.",
   "label": "reason for",
   "explanation": "The fact that you made a promise is a reason for returning the book."
 },
 {
-  "id": 6,
+  "id": 12,
   "premise": "An animal is trapped and frightened.",
   "hypothesis": "You should free the animal.",
   "label": "reason for",
