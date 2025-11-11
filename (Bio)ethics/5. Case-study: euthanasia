@@ -59,7 +59,7 @@
   "id": 8,
   "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
   "hypothesis": "The physician should help the patient to die.",
-  "label": "Conflict between principles – Resolution by ranking and undercut",
+  "label": "Conflict between principles – Resolution by ranking",
   "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that promoting others’ wellbeing is good, removing suffering is a reason to help. Given that we should not kill, the fact that helping causes death is a reason not to help. The autonomy-based reason is stronger here, so the physician should help the patient to die."
 },
 
