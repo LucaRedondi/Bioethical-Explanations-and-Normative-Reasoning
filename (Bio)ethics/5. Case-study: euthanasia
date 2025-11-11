@@ -60,7 +60,7 @@
   "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
   "hypothesis": "The physician should help the patient to die.",
   "label": "Conflict between principles – Resolution by ranking and undercut",
-  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to help, but this is undercut because the suffering cannot be avoided. Given that we should not kill, the fact that helping causes death is a reason not to help. The autonomy-based reason is stronger here, so the physician should help the patient to die."
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to help. Given that we should not kill, the fact that helping causes death is a reason not to help. The autonomy-based reason is stronger here, so the physician should help the patient to die."
 },
 
 {
@@ -68,7 +68,7 @@
   "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. The physician does not want to help. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
   "hypothesis": "It is morally permitted for the physician not to help the patient to die.",
   "label": "Multiple principle conflict – Resolution by ranking and undercut",
-  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that we should promote others’ wellbeing, reducing suffering is normally a reason to help, but this is undercut because the suffering cannot be avoided. Given that we should not kill, causing death is a reason not to help. The physician’s own autonomous refusal is also a reason not to help. Taken together, the reasons not to help are stronger, so not helping is permitted."
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that we should promote others’ wellbeing, reducing suffering is a reason to help. Causing death is a reason not to help. The physician’s own autonomous refusal is also a reason not to help. Taken together, the reasons not to help are stronger, so not helping is permitted."
 },
 
 {
@@ -76,7 +76,7 @@
   "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good. We must never kill.",
   "hypothesis": "It is morally prohibited for the physician to help the patient to die.",
   "label": "Conflict between principles – Absolute constraint",
-  "explanation": "Given that people should decide for themselves, the patient's desire is a reason to help. Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to help, but this is undercut because the suffering cannot be avoided. Since killing is absolutely prohibited, there is a decisive reason not to help."
+  "explanation": "Given that people should decide for themselves, the patient's desire is a reason to help. Given that promoting others’ wellbeing is good, reducing suffering is a reason to help. Since killing is absolutely prohibited, there is a decisive reason not to help."
 },
 
 {
