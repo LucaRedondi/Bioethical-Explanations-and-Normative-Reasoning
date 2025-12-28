@@ -7,6 +7,7 @@ Classical logic
         "hypothesis": "Fido is inside.",
         "label": "entailment",
         "explanation": ""
+Original source: Holliday et. al. 2024.
     },
     {
         "id": 2,
@@ -14,6 +15,7 @@ Classical logic
         "hypothesis": "Sue was at the wedding.",
         "label": "entailment",
         "explanation": ""
+Original source: Holliday et. al. 2024.
     },
     {
         "id": 3,
@@ -21,6 +23,7 @@ Classical logic
         "hypothesis": "Mary was not at the wedding.",
         "label": "entailment",
         "explanation": ""
+Original source: Holliday et. al. 2024.
     },
 
 {
@@ -29,6 +32,7 @@ Classical logic
     "hypothesis": "Alice is a doctor.",
     "label": "entailment",
     "explanation": ""
+Original source: Holliday et. al. 2024.
   },
 
 {
@@ -37,5 +41,6 @@ Classical logic
   "hypothesis": "Alice is a doctor and a musician.",
   "label": "entailment",
   "explanation": ""
+Original source: Holliday et. al. 2024.
 },
 ]
