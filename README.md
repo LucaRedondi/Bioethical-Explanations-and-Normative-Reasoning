@@ -1,4 +1,4 @@
-# Deontic-Explanations-Dataset
+# Bioethical Explanations and Normative Reasoning
 
 # The aim of the dataset
 The focus of this dataset is deontic reasoning and – especially – ethical reasoning. Ethical reasoning displays several different inference patterns, including some shared with epistemic reasoning – for instance, when we reason about the factual circumstances of action –. We aim at providing a comprehensive collection of cases that show these reasoning patterns at work. We tried to present each of the patterns in isolation using some simple cases, before moving on to complex cases in which they are integrated with the other patterns. This choice is reflected by the structure of the dataset: each folder contains cases that target a certain type (or combination of types) of reasoning. 
