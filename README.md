@@ -6,9 +6,9 @@ The focus of this dataset is deontic reasoning and – especially – ethical re
 # The format of the cases
 Each case is composed of a set of premises, a hypothesis, and an explanation. Although there are exceptions (such as the cases that explore epistemic reasoning), most cases show a regularity as to what is put in the three slots. In the premises, we list all the inputs of deontic reasoning. These include the factual circumstances of the case at stake, as well as the relevant normative principles. In the hypothesis, we indicate a deontic verdict: some action is established to be permissible, obligatory or forbidden. To move from the premises to the hypothesis, some reasoning steps are required. These are provided by the explanation. Here is an example:
 
-- Premises: Bob declines your proposal to meet at his place. You should respect others’ autonomy.
-- Hypothesis: You should not show up at Bob’s place.
-- Explanation: Since Bob declined your proposal to meet at his place, he is likely not to want you at his place.  Given that you should respect others' autonomy, the fact that Bob doesn’t want you at his place is a reason for not going.
+- Premises: Helping others is good. Bob is crying.
+- Hypothesis: You should comfort Bob.
+- Explanation: Crying typically indicates distress. Given that you should help others, the fact that Bob is in distress is a reason to comfort him.
 
 # Organization of the dataset 
 The dataset is organized into different groups that target different reasoning patterns. They are defined by their “missing step”; i.e., what is missing between the premises and the hypothesis.
@@ -36,7 +36,7 @@ In practical reasoning, we can express equivalent deontic statements expressed u
 - Hypothesis: You should not kill. 
 - Explanation: To say that killing is wrong is to say that you should not kill. 
 
-The categories employed in natural language for practical reasoning are typically divided into two families: deontic categories and evaluative categories [see Berker 2022]. In this folder, we only focus on the deontic categories. Using them, the same information about what is wrong and what is right can be expressed in the form of a description of the moral status of an action (e.g., "To kill is forbidden"), or in the prescriptive form of a command, prohibition or permission (e.g., "You shall not kill"). These cases are such that, to obtain the explanation, one needs to infer the prescriptive version of one such statement from the descriptive, or vice versa. 
+The categories employed in natural language for practical reasoning are typically divided into two families: deontic categories and evaluative categories [see Berker 2022]. In this folder, we only focus on the deontic categories. Using them, the same information about what is wrong and what is right can be expressed in the form of a description of the moral status of an action (e.g., “To kill is forbidden”), or in the prescriptive form of a command, prohibition or permission (e.g., “You shall not kill”). These cases are such that, to obtain the explanation, one needs to infer the prescriptive version of one such statement from the descriptive, or vice versa. 
 
 
 # 3.	Default reasoning
@@ -66,18 +66,18 @@ In metaethics, the notion of normative reason is used to denote facts that speak
 
 
 # 4.	Modalities
-The alethic modalities (necessity, possibility, impossibility) and the deontic modalities (obligation, permission, prohibition) display certain logical relations:  for instance, if p is necessary then not-p is not possible, and similarly, if p is obligatory then not-p is not permissible. The cases in this folder are such that, in order to solve them, to bridge the premises and the hypothesis, one must understand the logical relations between the modalities. Here is an example:
+The alethic modalities (necessity, possibility, impossibility) and the deontic modalities (obligation, permission, prohibition) display certain logical relations:  for instance, if p is necessary then not-p is not possible, and similarly, if p is obligatory then not-p is not permissible. The cases in this folder are such that, to bridge the premises and the hypothesis, one must understand the logical relations between the modalities. Here is an example:
 
 - Premises: To save someone is obligatory.
 - Hypothesis: To save someone is permitted. 
 - Explanation: If something is obligatory, then it is also permitted. 
 
-Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, crucial in the development of modal deontic logics [see Gabbay et al. 2013]. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligations relate to two inference patterns: 
+Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, central in the development of deontic logics [see Gabbay et al. 2013]. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligations relate to two inference patterns: 
 
 -	Factual detachment: from a conditional obligation to A given B and the fact B, we detach an obligation to A.
 -	Deontic detachment: from a conditional obligation to A given B and an obligation to B, we detach an obligation to A.
 
-We provide cases that exhibit factual detachment, as well as cases that exhibit deontic detachment. Finally, we translate into our format the so-called Chisholm Puzzle, i.e., a scenario in which factual detachment and deontic detachment generate opposite obligations. 
+We provide cases that exhibit factual detachment, as well as cases that exhibit deontic detachment. Finally, we translate into our format the so-called Chisholm Puzzle [Chisholm 1963], i.e., a scenario in which factual detachment and deontic detachment generate opposite obligations. 
 
 # 5.	Bioethics
 The richer part of our dataset zooms in on one specific type of deontic reasoning: ethical reasoning and – more precisely – bioethics. A remark is in order: there is no claim that the hypothesis in the cases of this folder is the right thing to do. We do not even claim that it is the right thing to do if the premises are true, since sometimes the explanation includes some substantial moral stances. What we claim is rather that, given the premises and the explanation, the hypothesis is supported.
@@ -93,17 +93,19 @@ This phrasing is intentionally underdetermined. A principlist might interpret th
 In subfolders 2, 3 and 4, we explore the reasoning patterns that emerge in the second step. Subfolder 2, **“Undercuts”**, contains cases in which a prima facie reason is undercut. For example, if a patient refuses treatment, the principle of autonomy grounds a prima facie reason for not respecting the decision. But if a closer scrutiny reveals that the patient is not competent because of drug abuse, then the refusal does not count as a reason for not giving the treatment anymore. Subfolder 3, **“Conflict within one principle”**, explores conflict of reasons grounded in the same principle. For example, we consider problems of resources allocation in which benevolence grounds contrasting prima facie reasons towards different individuals. Subfolder 4, **“Conflict across principles”**, explores conflict between reasons grounded in different principles; this type of conflict emerges, for example, when a competent patient refuses a medical treatment, so that the principle of autonomy instantiates a reason against giving the treatment, while the principle of benevolence instantiates a reason for it. 
 
 The cases in subfolder 5, **“A case study: euthanasia”**, are the most complex. They form a roster of possible scenarios concerning the ethical issues around the practice of euthanasia. Their contribution to the repository consists in their complexity: they aim to approximate the richness and ambiguity of real life choices. We choose euthanasia for two reasons. First, in cases that involve euthanasia, different principles are relevant together, giving rise to conflict of reasons. Second, euthanasia is a topic that encompasses a variety of different scenarios: passive and active euthanasia, suicide, refusal of treatment... Thus, the topic is well-suited to constructing a cluster of different cases, that involve different factual contexts, different nuances in conceiving the ethical principles and different strategies to handle conflict between principles. Here is an example from this subfolder:
- - Premises: The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. People should decide for themselves.
- - Hypothesis: It is morally permitted for the patient to refuse treatment.
-- Explanation: Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Since no competing reason overrides it here, refusal is permitted.
+ - Premises: The patient wants to refuse therapy. The patient is suffering. The patient’s relatives will suffer from the patient’s death. People should decide for themselves. Promoting others’ wellbeing is good.
+- Hypothesis: It is morally permitted for the patient to refuse treatment.
+- Explanation: Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Given that promoting others’ wellbeing is good, the relatives’ suffering is a reason to prevent refusal. The autonomy-based reason is stronger, so refusing treatment is permitted.
 
 # References to other datasets
-We adapt 10 cases from the e-SNLI dataset (5 in the folder on common sense, 5 in the folder on Default reasoning) and 5 from the dataset introduced in [Holliday et al. 2024] (3 in the folder on classical logic, and 2 in the folder on modalities). The original source, when present, is indicated at the bottom of each case. 
+We adapt 10 cases from the e-SNLI dataset (5 in the folder on common sense, 5 in the folder on default reasoning) and 5 from the dataset introduced in [Holliday et al. 2024] (3 in the folder on classical logic, and 2 in the folder on modalities). The original source, when present, is indicated at the bottom of each case. 
 
 # References:
 Selim Berker. 2022. The deontic, the evaluative, and the fitting. In *Fittingness: Essays in the Philosophy of Normativity*. Oxford University Press.
 
 James F. Childress Tom L. Beauchamp. 1979. *Principles of biomedical ethics*. Oxford University Press. 
+
+Roderick M. Chisholm. 1963. Contrary-to-duty imperatives and deontic logic. *Analysis*, 24:33–36.
 
 Wesley H. Holliday, Matthew Mandelkern, and Cedegao E. Zhang. 2024. Conditional and modal reasoning in large language models. In *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing*, pages 3800–3821, Miami, Florida, USA. Association for Computational Linguistics. 
 
