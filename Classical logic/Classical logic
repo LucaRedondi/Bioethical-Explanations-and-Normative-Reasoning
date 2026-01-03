@@ -32,7 +32,6 @@ Original source: Holliday et. al. 2024.
     "hypothesis": "Alice is a doctor.",
     "label": "entailment",
     "explanation": ""
-Original source: Holliday et. al. 2024.
   },
 
 {
@@ -41,6 +40,5 @@ Original source: Holliday et. al. 2024.
   "hypothesis": "Alice is a doctor and a musician.",
   "label": "entailment",
   "explanation": ""
-Original source: Holliday et. al. 2024.
 },
 ]
