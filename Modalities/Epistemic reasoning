@@ -23,7 +23,6 @@ Original source: Holliday et. al. 2024.
     "hypothesis": "It is impossible that Mary was at the wedding.",
     "label": "entailment",
     "explanation": "If it is necessary that not-P, that it is impossible that P."
-Original source: Holliday et. al. 2024.
   },
   {
     "id": 4,
@@ -31,7 +30,6 @@ Original source: Holliday et. al. 2024.
     "hypothesis": "It is impossible that Mary was not at the wedding.",
     "label": "entailment",
     "explanation": "If it is necessary that P, then not-P is impossible."
-Original source: Holliday et. al. 2024.
   },
   {
     "id": 5,
@@ -39,7 +37,6 @@ Original source: Holliday et. al. 2024.
     "hypothesis": "It is possible that Mary was at the wedding.",
     "label": "entailment",
     "explanation": "If something is not impossible, then it is possible."
-Original source: Holliday et. al. 2024.
   }
 ]
 ]
